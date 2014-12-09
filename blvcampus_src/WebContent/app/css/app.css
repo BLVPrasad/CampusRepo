@@ -1,0 +1,653 @@
+
+.x-item-selected .list-item-title  
+{  
+    color:#ffffff;  
+}  
+.x-item-selected .list-item-desc  
+{  
+    color:#ffffff;  
+} 
+
+.x-list-item-body{
+	display:-webkit-box;
+	display:box;
+	-webkit-box-orient:horizontal;
+	box-orient:horizontal;
+	-webkit-box-align:center;
+	box-align:center
+}
+
+.logo{
+	background-image: url('../img/gocampus_logo.png');
+	background-size: 50% 100%;
+	-webkit-background-size: 50% 100%;
+	-moz-background-size: 50% 100%;
+	background-color:#eee;
+	background-position:center center;
+	background-repeat : no-repeat;
+	border : none;
+	height : 100px;
+}
+
+.buttonCls{
+	background-image: url('../img/gocampus_btn_bg.png');
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-color:#eee;
+	background-position:center center;
+	background-repeat : no-repeat;
+	color : #FFF;
+	border : none;
+}
+
+.updateBtnCls{
+	background-image: url('../img/gocampus_btn_bg.png');
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-color:#eee;
+	background-position:center center;
+	background-repeat : no-repeat;
+	color : #FFF;
+	border : none;
+	-webkit-border-radius:0.8em;
+	border-radius:0.8em;
+	font-size:0.8em;
+	padding: 2px;
+	font-weight: bold;
+}
+
+.icon{
+	background-color:#eee;
+	background-position:center center;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+	margin-right:10px;
+	width:45px;
+	height:45px;
+	background-size:47px auto;	
+}
+
+.title{
+	-webkit-box-flex:1;
+	box-flex:1;
+	font-weight:bold;
+	font-size:1.4em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:block;
+	white-space:nowrap;
+	overflow:hidden;
+	float:left;
+}
+
+.desc{
+	font-weight:normal;
+	color:#999
+}
+
+.x-list-item-body .name{
+-webkit-box-flex:1;
+box-flex:1;
+font-weight:bold;
+font-size:1.4em;
+overflow:hidden;
+text-overflow:ellipsis;
+display:block;
+white-space:nowrap;
+overflow:hidden
+}
+.x-list-item-body .secondary{
+display:block;
+font-size:10px !important;
+color:#d40e3f;
+margin-left:.5em;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis
+}
+.x-list-item-body .tertiary{
+font-weight:normal;color:#999
+}
+
+.bigphoto{
+background-color:#eee;
+background-position:center center;
+-webkit-border-radius:0.5em;
+border-radius:0.5em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+margin-right:10px;
+width:155px;
+height:155px;
+background-size:167px auto;
+
+}
+
+.header{
+	background-image: url('../img/gocampus_title1.png');
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-position:center center;
+	border: 0px;
+}
+
+
+.photo{
+background-color:#eee;
+background-position:center center;
+-webkit-border-radius:0.5em;
+border-radius:0.5em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+margin-right:10px;
+width:45px;
+height:45px;
+background-size:47px auto;
+float : left;
+}
+
+
+.grade{
+background-color:rgb(79,98,40);
+background-position:center center;
+-webkit-border-radius:0.3em;
+border-radius:0.3em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+margin-left:10px;
+width:30px;
+height:30px;
+background-size:32px auto;
+float : right;
+font-size: 18px;
+text-align: center;
+text-shadow: green;
+padding:1px;
+color: rgb(255,255,255);
+}
+
+.x-toolbar.small_title{
+font-size:.6em;border-top:1px solid #bbb
+}
+
+.cname{
+-webkit-box-flex:1;
+box-flex:1;
+font-weight:bold;
+font-size:0.7em;
+overflow:hidden;
+text-overflow:ellipsis;
+display:block;
+white-space:nowrap;
+-webkit-border-radius:0.5em;
+border-radius:0.5em;
+border: 1px solid rgb(191,191,191);
+padding : 10px;
+margin : 10px;
+margin-top:0px;
+background-color: rgb(246,246,246);
+}
+
+.tertiary{
+font-weight:normal;color:#999                         
+}
+
+.subdata_g{
+	font-weight:normal;
+	color:rgb(0,176,80);
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;                         
+}
+
+.emplname{
+	font-size:18px !important;	
+	margin-left:.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-weight: bold;
+}
+.subtitle{
+	font-size:12px !important;
+	color:#d40e3f;
+	margin-left:.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.subheader{
+	font-size:12px !important;
+	color:rgb(21,51,87);
+	margin-left:.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	background-color: rgb(142,180,227);
+	-webkit-border-radius:0.3em;
+	border-radius:0.3em;
+	margin: 5px;
+	margin-bottom: 1px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.subtitlecls{
+	font-size: 12px;
+	color: #FFF;
+	border-right-color: #FFF;
+	border-right-width: 2px;	
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.paddingCls{
+padding : 10px;
+
+}
+
+.demos-loading {
+  background: rgba(0,0,0,.3) url(../img/loading.gif) center center no-repeat;
+  display: block;
+  width: 10em;
+  height: 10em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -5em;
+  margin-top: -5em;  
+  -webkit-border-radius: .5em;
+  color: #fff;
+  text-shadow: #000 0 1px 1px;
+  text-align: center;
+  padding-top: 8em;
+  font-weight: bold;
+}
+
+.labelCls{
+	padding-left: 5px;	
+	padding-bottom: 5px;
+	font-weight:normal;
+	color:rgb(55,96,146);
+}
+
+.dataCls{	
+	font-weight:normal;	
+	color:rgb(192,80,77); 
+	left:125px;       
+	position:absolute;
+}
+
+.dataCls1{	
+	font-weight:normal;	
+	color:rgb(192,80,77); 
+	padding-left: 5px;	
+	padding-bottom: 5px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space: pre-wrap;
+}
+
+.rowDiv{
+	padding: 5px;
+}
+
+.subheadernobg{
+	font-size:11px !important;
+	color:rgb(21,51,87);
+	margin-left:.5em;	
+	overflow:hidden;
+	text-overflow:ellipsis;
+	background-color: rgb(220,230,242);
+	-webkit-border-radius:0.3em;
+	border-radius:0.3em;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 1px;	
+	padding: 5px;	
+	border: 1px #999;
+}
+
+.subfootergrey{
+	font-size:10px !important;
+	color:rgb(21,51,87);
+	margin-left:.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	background-color: rgb(217,217,217);
+	-webkit-border-radius:0.3em;
+	border-radius:0.3em;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 1px;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.cell4 {
+  width:100%;  
+  float:left;
+  margin:1px 0 0;
+}
+.cell3 {
+  width:75%; 
+  float:left;
+}
+.cell2 {
+  width:66%;  
+  float:left;
+}
+.cell1 {
+  width:50%;  
+  float:left;
+}
+.cell2a, .cell3a, .cell4a {
+  width:100%;
+  float:right;
+  margin-right:-100%;
+  position:relative;
+  margin-left:2px;
+}
+.cell4a {
+  margin-right:-130%;
+  position:relative;
+  margin-left:8px;
+}
+
+.errorMsg {
+	-webkit-box-flex:1;
+	box-flex:1;
+	font-weight:bold;
+	font-size:1.0em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:block;
+	white-space:nowrap;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	border: 1px solid rgb(191,191,191);
+	padding : 10px;
+	margin : 10px;
+	margin-top:0px;
+	background-color: rgb(192,80,77);
+	color:rgb(255,255,255);	
+	text-align: center;
+	white-space: pre-wrap;
+}
+
+
+.footer{	
+	background-image: url('../img/hexlogo.png');
+	background-position:center center;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+	width:20px;
+	height:20px;
+	background-size:100% 100%;	
+	background-repeat : no-repeat;	
+	border: 0px;	
+	padding:10px;
+	float:left;
+}
+
+
+.datetime{
+background-color:rgb(79,98,40);
+background-position:center center;
+-webkit-border-radius:0.3em;
+border-radius:0.6em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+margin-left:10px;
+width:120px;
+height:75px;
+background-size:32px auto;
+float : right;
+font-size: 9px;
+text-align: center;
+text-shadow: green;
+padding:10px;
+color: rgb(255,255,255);
+top : 10px;
+}
+
+
+.days{
+background-color:rgb(215,228,189);
+background-position:center center;
+-webkit-border-radius:0.3em;
+border-radius:0.6em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+width:100px;
+height:25px;
+background-size:32px auto;
+font-size: 10px;
+text-align: center;
+text-shadow: green;
+padding:5px;
+color: rgb(79,98,40);
+}
+
+.paddingCls2{
+padding : 2px;
+
+}
+
+.descr{
+	font-size:12px !important;	
+	margin-left:.2em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-weight: bold;
+}
+
+.rostername{
+	font-size:14px !important;	
+	margin-left:.2em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-weight: bold;
+}
+
+.persinfo{
+	font-size:12px !important;	
+	margin-left:.2em;
+	white-space: pre-wrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	#font-weight: bold;
+	color:rgb(192,80,77);
+}
+
+.venueinfo{
+	font-size:14px !important;	
+	margin-left:.2em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	#font-weight: bold;
+	color:rgb(79,98,40);
+	float: right;
+}
+.persinfoRow{
+	padding: 2px;
+}
+
+.posnegind{
+	font-size:12px !important;
+	text-align:right;	
+	font-weight: bold;	
+}
+
+.smallicon{
+background-color:#eee;
+background-position:center center;
+-webkit-border-radius:0.3em;
+border-radius:0.3em;
+-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 3px 0;
+margin-right:10px;
+width:25px;
+height:25px;
+background-size:27px auto;
+float : right;
+}
+
+.photo_r{
+background-color:#eee;
+background-position:center center;
+-webkit-border-radius:0.5em;
+border-radius:0.5em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+margin-right:10px;
+width:35px;
+height:35px;
+background-size:37px auto;
+float : right;
+}
+
+.enrolcount{
+background-color:white;
+background-position:center center;
+-webkit-border-radius:0.3em;
+border-radius:0.3em;
+-webkit-box-shadow:rgba(255, 255, 255, 0.2) 0 1px 0;
+width:100px;
+height:30px;
+background-size:32px auto;
+float : right;
+text-align: center;
+text-shadow: green;
+padding:5px;
+top : 10px;
+font-size:14px !important;
+font-weight: bold;
+color: orange;
+margin-left:.5em;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+
+.classroastertap{
+       font-size:11px !important;
+       color:rgb(21,51,87);
+       margin-left:.5em;    
+       overflow:hidden;
+       text-overflow:ellipsis;
+       background-color: #FFFFFF;
+       -webkit-border-radius:0.5em;
+       border-radius:0.5em;
+       margin-left:4px;
+       margin-right:4px;
+       margin-top: 1px;     
+       padding: 5px; 
+       border: 1px #999;
+       font-weight: bold;
+}
+
+.subheadernobg{
+	font-size:11px !important;
+	color:rgb(21,51,87);
+	margin-left:.5em;	
+	overflow:hidden;
+	text-overflow:ellipsis;
+	background-color: rgb(220,230,242);
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 1px;	
+	padding: 5px;	
+	border: 1px #999;
+	font-weight: bold;
+}
+
+.classenlistfcolor{
+       font-size:12px !important;
+       color:rgb(55,96,146);
+       margin-left:.5em;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+}
+
+.classenlisttofcolor{
+       font-size:12px !important;
+       color:black;
+       margin-left:.5em;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       white-space: pre-wrap;
+       
+}
+
+.appstatemplname{
+       font-size:15px !important; 
+       margin-left:.5em;
+       color:Black;
+       white-space: pre-wrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       font-weight: bold;
+       
+}
+
+.applicationstatus11{
+       font-size:12px !important;
+       color:rgb(23,55,94);
+       margin-left:.5em;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       font-weight: bold;
+}
+
+.appsubtitle{
+       font-size:12px !important;
+       color: rgb(192,0,0);
+       margin-left:.5em;
+       white-space:pre-wrap; 
+       overflow:hidden;
+       text-overflow:ellipsis;
+}
+
+.applicationstatus{
+       font-size:12px !important;
+       color:rgb(23,55,94);
+       margin-left:.5em;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       font-weight: bold;
+        white-space: pre-wrap;
+}
+
+.applicationsubhed{
+       font-size:12px !important;
+       color:rgb(85,142,213);
+       margin-left:.5em;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       font-style:italic;
+       
+}
+
+.applicationstatusdate{
+       font-size:12px !important;
+       color:rgb(23,55,94);
+       margin-left:.5em;
+       white-space:nowrap;
+       overflow:hidden;
+       text-overflow:ellipsis;
+       font-weight: bold;
+}
+
+

@@ -1,0 +1,31 @@
+alphabetsStore = new Ext.data.Store({
+    model: 'alphabetsmodel',
+    data: [
+           {alphabet : 'A', value : 'A'},       
+           {alphabet : 'B', value : 'B'},
+           {alphabet : 'C', value : 'C'},
+           {alphabet : 'D', value : 'D'},       
+           {alphabet : 'E', value : 'E'},
+           {alphabet : 'F', value : 'F'},
+           {alphabet : 'G', value : 'G'},       
+           {alphabet : 'H', value : 'H'},
+           {alphabet : 'I', value : 'I'},
+           {alphabet : 'J', value : 'J'},       
+           {alphabet : 'K', value : 'K'},
+           {alphabet : 'L', value : 'L'},
+           {alphabet : 'M', value : 'M'},       
+           {alphabet : 'N', value : 'N'},
+           {alphabet : 'O', value : 'O'},
+           {alphabet : 'P', value : 'P'},       
+           {alphabet : 'Q', value : 'Q'},
+           {alphabet : 'R', value : 'R'},
+           {alphabet : 'S', value : 'S'},       
+           {alphabet : 'T', value : 'T'},
+           {alphabet : 'U', value : 'U'},
+           {alphabet : 'V', value : 'V'},       
+           {alphabet : 'W', value : 'W'},
+           {alphabet : 'X', value : 'X'},
+           {alphabet : 'Y', value : 'Y'},
+           {alphabet : 'Z', value : 'Z'}
+    ]
+});

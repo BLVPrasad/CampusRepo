@@ -1,0 +1,143 @@
+<!doctype html>
+<html manifest="gcmobile.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Campus</title>
+
+    <link rel="stylesheet" href="api/css/sencha-touch.css" type="text/css">    
+    <link rel="stylesheet" href="app/css/app.css" type="text/css">	
+    
+    
+    <script type="text/javascript" src="api/js/sencha-touch.js"></script> 
+    <script type="text/javascript" src="api/js/LeafSelectedPlugin.js"></script> 
+ 
+    <script type="text/javascript" src="app/js/index.js"></script>    
+    <script type="text/javascript" src="app/js/structure.js"></script>
+    
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyAci4Zq2X9JdHkwI27u3hiYCI9A1FVZMaA&sensor=true" type="text/javascript"></script>
+    
+    
+    <script type="text/javascript" src="app/js/models/mainmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/personsmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/coursemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/speakermodel.js"></script>
+    <script type="text/javascript" src="app/js/models/notemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/holdsmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/subjectmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/usermodel.js"></script>
+    <script type="text/javascript" src="app/js/models/userrolemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/todomodel.js"></script>
+    <script type="text/javascript" src="app/js/models/todoitemmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/termmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/updatemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/addresstypemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/phonetypemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/emailtypemodel.js"></script>
+    <script type="text/javascript" src="app/js/models/facuclassmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/facutermmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/persinfomodel.js"></script>
+    <script type="text/javascript" src="app/js/models/paramsmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/institutemodel.js"></script>
+	<script type="text/javascript" src="app/js/models/careermodel.js"></script>
+	<script type="text/javascript" src="app/js/models/graderoastermodel.js"></script>
+	<script type="text/javascript" src="app/js/models/facusearchmodel.js"></script>
+	<script type="text/javascript" src="app/js/models/facusearchtermmodel.js"></script>
+	<script type="text/javascript" src="app/js/models/coursecatalogmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/stdclassesmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/actionsmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/classsearchmodel.js"></script>
+    <script type="text/javascript" src="app/js/models/alphabetmodel.js"></script>
+	
+    
+    
+    
+    <script type="text/javascript" src="app/js/stores/mainstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/facultystore.js"></script>
+    <script type="text/javascript" src="app/js/stores/personsstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/coursestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/speakerstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/notestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/holdsstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/subjectstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/userstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/userrolestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/todostore.js"></script>
+    <script type="text/javascript" src="app/js/stores/todoitemstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/termstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/updatestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/addresstypestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/phonetypestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/emailtypestore.js"></script>
+    <script type="text/javascript" src="app/js/stores/facuclassstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/facutermstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/persinfostore.js"></script>
+    <script type="text/javascript" src="app/js/stores/paramsstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/institutestore.js"></script>
+	<script type="text/javascript" src="app/js/stores/careerstore.js"></script>
+	<script type="text/javascript" src="app/js/stores/graderoasterstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/facusearchstore.js"></script>
+	<script type="text/javascript" src="app/js/stores/facusearchtermstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/coursecatalogstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/stdclassesstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/actionsstore.js"></script>
+    <script type="text/javascript" src="app/js/stores/classsearchstore.js"></script>
+  	<script type="text/javascript" src="app/js/stores/alphabetstore.js"></script>
+  	
+  	
+    <script type="text/javascript" src="app/js/views/login.js"></script>
+    <script type="text/javascript" src="app/js/views/whoiswho.js"></script>
+    <script type="text/javascript" src="app/js/views/notes.js"></script>
+    <script type="text/javascript" src="app/js/views/holds.js"></script>
+    <script type="text/javascript" src="app/js/views/holdslist.js"></script>
+    <script type="text/javascript" src="app/js/views/subject.js"></script>
+    <script type="text/javascript" src="app/js/views/gradebook.js"></script>
+    <script type="text/javascript" src="app/js/views/financialdues.js"></script>
+    <script type="text/javascript" src="app/js/views/todos.js"></script>
+    <script type="text/javascript" src="app/js/views/todoItem.js"></script>
+    <script type="text/javascript" src="app/js/views/personalinfo.js"></script>
+    <script type="text/javascript" src="app/js/views/enrollist.js"></script>
+    <script type="text/javascript" src="app/js/views/update.js"></script>
+    <script type="text/javascript" src="app/js/views/facuclassschedule.js"></script>
+    <script type="text/javascript" src="app/js/views/facultyexam.js"></script>
+    <script type="text/javascript" src="app/js/views/facultydesc.js"></script>
+	<script type="text/javascript" src="app/js/views/facultyexamdesc.js"></script>    
+    <script type="text/javascript" src="app/js/views/classroster.js"></script>
+    <script type="text/javascript" src="app/js/views/graderoster.js"></script>
+    <script type="text/javascript" src="app/js/views/facultySearch.js"></script>
+    <script type="text/javascript" src="app/js/views/facultySearchList.js"></script>
+	<script type="text/javascript" src="app/js/views/facultySearchPanel.js"></script>    
+    <script type="text/javascript" src="app/js/views/empphoto.js"></script>
+    <script type="text/javascript" src="app/js/views/applicationstatus.js"></script>
+	<script type="text/javascript" src="app/js/views/studentAdvisor.js"></script>
+	<script type="text/javascript" src="app/js/views/facultyAdvisee.js"></script>
+	<script type="text/javascript" src="app/js/views/errorpage.js"></script>
+	<script type="text/javascript" src="app/js/views/stdcourses.js"></script>
+	<script type="text/javascript" src="app/js/views/stdclasses.js"></script>
+    <script type="text/javascript" src="app/js/views/stdactions.js"></script>
+	<script type="text/javascript" src="app/js/views/studentexam.js"></script>
+    <script type="text/javascript" src="app/js/views/studentexamdesc.js"></script>
+    <script type="text/javascript" src="app/js/views/stdcoursecatalog.js"></script>
+    <script type="text/javascript" src="app/js/views/stdcoursecatalogdetailed.js"></script>
+    <script type="text/javascript" src="app/js/views/facultySearchList.js"></script>
+    <script type="text/javascript" src="app/js/views/facultySearchPanel.js"></script>
+    <script type="text/javascript" src="app/js/views/studentEnrollStatus.js"></script>
+    <script type="text/javascript" src="app/js/views/classSearch.js"></script>
+    <script type="text/javascript" src="app/js/views/classSearchList.js"></script>
+    <script type="text/javascript" src="app/js/views/classSearchDetail.js"></script>
+    <script type="text/javascript" src="app/js/views/enrollAppointment.js"></script>
+	<script type="text/javascript" src="app/js/views/applyGraduation.js"></script>
+	<script type="text/javascript" src="app/js/views/programPlan.js"></script>
+	<script type="text/javascript" src="app/js/views/addEnroll.js"></script>
+    <script type="text/javascript" src="app/js/views/dropEnroll.js"></script>
+    <script type="text/javascript" src="app/js/views/swapEnroll.js"></script>
+    <script type="text/javascript" src="app/js/views/shoppingcart.js"></script>
+	<script type="text/javascript" src="app/js/views/dynamicmapjscript.js"></script>
+ 	<script type="text/javascript" src="app/js/views/swapEnrollDetail.js"></script>
+ 	<script type="text/javascript" src="app/js/views/gradeRosterPost.js"></script>
+ 	<script type="text/javascript" src="app/js/views/noResults.js"></script>
+ 	<script type="text/javascript" src="app/js/views/degreereport.js"></script>
+ 	<script type="text/javascript" src="app/js/views/transcript.js"></script>
+</head>
+<body>
+</body>
+</html>

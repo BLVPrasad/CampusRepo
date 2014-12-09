@@ -1,0 +1,3 @@
+Ext.regModel('facultyresult', {		
+    	fields: []
+});

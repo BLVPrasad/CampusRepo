@@ -1,0 +1,24 @@
+<html>
+	<head>
+	<title>Employee Details</title>
+	<script language="Javascript" type="text/javascript">
+	 
+	function setPhone(phoneNo)
+	{
+		document.getElementById('phonenotextbox').value = phoneNo;
+	}
+	</script>
+	</head>
+	<body>
+	<form name="myForm" id="myForm">
+	Select Employee Id :<select id="phonelist" onchange="setPhone(this.value)">
+	 <option value="|0">Select EmpId</option>
+	 <option value="8754570719">19119</option>
+	 <option value="9840704702">5721</option>
+	 <option value="9841576516">18420</option>
+	</select><br>
+	Phone No : <input type="text" value="0" id="phonenotextbox">
+	<p>
+	</form>
+	</body>
+</html>
